@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Verdana';
+    transition: background-color 0.5s ease;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 200px;
+    height: 180px;
+    display: grid;
+    place-items: center;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+button{
+    font-family: 'Trebuchet MS' ,sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: large;
+    padding: 5px 10px;
+    cursor: pointer;
+}
